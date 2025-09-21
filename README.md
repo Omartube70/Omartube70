@@ -77,7 +77,7 @@
 <a href="https://www.facebook.com/omar.mohamed.862034" target="_blank">
   <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
 </a>
-<a href="mailto:omartubefaheen@gmail.com" target="_blank">
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=omartubefaheen@gmail.com" target="_blank">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
 </a>
 <a href="https://github.com/Omartube70" target="_blank">
@@ -92,7 +92,7 @@
 
 - 🌱 أتعلم حاليًا: **Docker and Microservices concepts**
 - 💬 اسألني عن أي شيء يخص: **C#, .NET, SQL, and Clean Architecture**
-- 🏢 أنا عضو في فريق: **[The CodeFather](https://thecodefather.netlify.app/)**
+- 🏢 أنا عضو في فريق: **<a href="https://thecodefather.netlify.app/" target="_blank">The CodeFather</a>**
 - 😄 حقيقة ممتعة: أحب تحويل الأفكار المعقدة إلى حلول برمجية بسيطة وأنيقة.
 
 ---
