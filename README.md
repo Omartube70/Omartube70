@@ -18,8 +18,8 @@
 <table>
   <tr>
     <td valign="top">
-      <p>أنا <strong>.NET Back-End Developer</strong> شغوف ببناء خدمات خلفية قوية وقابلة للتطوير 🚀.</p>
-      <p>أعمل حاليًا على صقل مهاراتي من خلال المشاريع التدريبية وتطبيق أفضل الممارسات في تصميم البرمجيات مثل الـ Clean Architecture لضمان كتابة كود نظيف وفعال.</p>
+      <p>مطور واجهات خلفية (<strong>.NET Back-End</strong>) متخصص في بناء تطبيقات قوية ومستقرة 🚀.</p>
+      <p>أركز على كتابة كود نظيف باستخدام مبادئ مثل <strong>Clean Architecture</strong>، وأسعى دائمًا لتطوير مهاراتي وحل المشكلات البرمجية بكفاءة.</p>
     </td>
     <td valign="top" width="400">
       <img alt="Coding" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" style="max-width: 100%;"/>
@@ -56,15 +56,21 @@
 
 <div align="center">
 
+<a href="https://github.com/Omartube70" target="_blank">
 <img src="https://github-readme-stats.vercel.app/api?username=Omartube70&show_icons=true&theme=react&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=5B2A91&icon_color=61DAFB&text_color=C9D1D9" alt="Omar's GitHub Stats" style="max-width:100%;"/>
+</a>
 
+<a href="https://github.com/Omartube70" target="_blank">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Omartube70&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=5B2A91&text_color=C9D1D9&langs_count=8" alt="Omar's Top Languages" style="max-width:100%;"/>
+</a>
 
 </div>
 
 <div align="center">
 
+<a href="https://github.com/Omartube70" target="_blank">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Omartube70&theme=react&hide_border=true&background=0D1117&stroke=5B2A91&ring=5B2A91&fire=FF6B35&currStreakLabel=5B2A91" alt="GitHub Streak" style="max-width:100%;"/>
+</a>
 
 </div>
 
