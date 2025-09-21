@@ -18,29 +18,14 @@
 <table>
   <tr>
     <td valign="top">
-<pre>
-<code>
-class OmarDeveloper
-{
-    public string Name { get; set; } = "Omar Mohamed";
-    public string Role { get; set; } = ".NET Back-End Developer";
-    public string[] Languages { get; set; } = { "C#", "C++" };
-    public string[] Technologies { get; set; } = 
-    {
-        "💻 .NET",
-        "🔗 RESTful APIs",
-        "🗃️ Entity Framework & ADO.NET",
-        "🏛️ Clean Architecture",
-        "💾 SQL Server"
-    };
-
-    public void SayHi()
-    {
-        Console.WriteLine("مرحباً! أقوم ببناء خدمات خلفية قوية ومتطورة باستخدام .NET 🚀");
-    }
-}
-</code>
-</pre>
+      <p>أنا <strong>.NET Back-End Developer</strong> شغوف ببناء خدمات خلفية قوية وقابلة للتطوير 🚀.</p>
+      <p>أعمل حاليًا على صقل مهاراتي من خلال المشاريع التدريبية وتطبيق أفضل الممارسات في تصميم البرمجيات مثل الـ Clean Architecture.</p>
+      <br>
+      <ul>
+        <li>🌱 <strong>أركز حاليًا على:</strong> .NET, RESTful APIs, SQL Server.</li>
+        <li>🏢 <strong>أنا عضو في فريق:</strong> <a href="https://thecodefather.netlify.app/" target="_blank">The CodeFather</a>.</li>
+        <li>💬 <strong>يمكنك سؤالي عن:</strong> C#, Entity Framework, و SQL.</li>
+      </ul>
     </td>
     <td valign="top" width="400">
       <img alt="Coding" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" style="max-width: 100%;"/>
