@@ -1,56 +1,145 @@
+تمام، فهمت قصدك. مشكلة إن المحتوى "بيطلع بره الصفحة" دي بتحصل غالبًا لما يكون في عناصر عرضها ثابت (زي الصور والإحصائيات) والصفحة بتتعرض على شاشة أصغر (زي الموبايل أو نافذة متصفح صغيرة).
+
+الحل هو إني أعدل الكود عشان يكون متجاوب (Responsive) ويتكيف مع أي حجم شاشة. التعديلات اللي عملتها هي:
+
+1.  **قسم "عني":** غيرت طريقة عرض الصورة المتحركة والكود اللي جنبها. بدل ما كانوا جنب بعض بشكل ممكن يسبب المشكلة، حطيتهم في جدول HTML غير مرئي. ده بيضمن إن كل حا-جة تفضل في مكانها الصحيح مهما كان حجم الشاشة.
+2.  **الإحصائيات والصور المتحركة:** خليت أقصى عرض ليهم هو 100% من المساحة المتاحة، فبكده هيصغروا تلقائيًا مع الشاشة ومش هيخرجوا براها.
+
+اتفضل الكود الجديد والمعدّل، جربه دلوقتي والمفروض المشكلة تكون اتحلت تمامًا.
+
+-----
+
+### الكود الجديد (بعد التعديل ليناسب كل الشاشات)
+
+```markdown
 <div align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="150px" />
+
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="35" />
+<h1>مرحباً، أنا Omar Mohamed</h1>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=5B2A91&center=true&vCenter=true&width=450&lines=%F0%9F%92%BB+.NET+Back-End+Developer;%E2%9A%99%EF%B8%8F+Building+RESTful+APIs;%F0%9F%97%83%EF%B8%8F+SQL+Server+Expert;%F0%9F%9A%80+Clean+Architecture+Advocate" alt="Typing SVG" style="max-width: 90%;"/>
+
+<a href="https://github.com/Omartube70" target="_blank">
+  <img src="https://komarev.com/ghpvc/?username=Omartube70&style=flat-square&color=5B2A91" alt="Profile views" />
+</a>
+
 </div>
 
-<h1 align="center">مرحباً 👋، أنا عمر محمد</h1>
-<h3 align="center">.NET Back-End Developer</h3>
+---
+
+## 🧑‍💻 **عني**
+
+<table>
+  <tr>
+    <td valign="top">
+<pre>
+<code>
+class OmarDeveloper
+{
+    public string Name { get; set; } = "Omar Mohamed";
+    public string Role { get; set; } = ".NET Back-End Developer";
+    public string[] Languages { get; set; } = { "C#", "C++" };
+    public string[] Technologies { get; set; } = 
+    {
+        "💻 .NET",
+        "🔗 RESTful APIs",
+        "🗃️ Entity Framework & ADO.NET",
+        "🏛️ Clean Architecture",
+        "💾 SQL Server"
+    };
+
+    public void SayHi()
+    {
+        Console.WriteLine("مرحباً! أقوم ببناء خدمات خلفية قوية ومتطورة باستخدام .NET 🚀");
+    }
+}
+</code>
+</pre>
+    </td>
+    <td valign="top" width="400">
+      <img alt="Coding" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" style="max-width: 100%;"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ahmedabdelkrim125&label=Profile%20views&color=0e75b6&style=flat" alt="ahmedabdelkrim125" /> </p>
+## 🛠️ **التقنيات والأدوات**
 
-- 👨‍💻 أنا **Back-End .NET Developer**، أعمل حاليًا على مشاريع تدريبية لتطوير مهاراتي في الواجهات الخلفية.
-- 🏢 أنا عضو في فريق **[The CodeFather](https://thecodefather.netlify.app/)**.
-- 🌱 أتعلم باستمرار وأبحث عن كل جديد في عالم تطوير البرمجيات.
-- 💬 اسألني عن أي شيء يخص **C#, .NET, and SQL Server**.
+<div align="center">
 
----
+### **Languages & Frameworks**
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Entity Framework](https://img.shields.io/badge/Entity%20Framework-512BD4?style=for-the-badge&logo=.net&logoColor=white)
 
-<h3 align="left">🛠️ لغاتي وأدواتي (My Tech Stack):</h3>
-<p align="left">
-    <h4>Programming Languages:</h4>
-    <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a>
-    <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a>
+### **Database**
+![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 
-    <h4>Frameworks & Technologies:</h4>
-    <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt=".net" width="40" height="40"/> </a>
-    <a href="https://learn.microsoft.com/en-us/ef/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/c9948c26c6d0d2dd23f81e1858a75e3321151670/icons/entityframework/entityframework-original.svg" alt="Entity Framework" width="40" height="40"/> </a>
-    <p>RESTful APIs • ADO.NET • Clean Architecture • 5-Tier Architecture • 3-Tier Architecture</p>
-    
-    <h4>Database:</h4>
-    <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="sql server" width="40" height="40"/> </a>
-    
-    <h4>Tools & Platforms:</h4>
-    <a href="https://visualstudio.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" alt="visualstudio" width="40" height="40"/> </a>
-    <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
-    <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
-    <a href="https://www.microsoft.com/en-us/sql-server/ssms" target="_blank" rel="noreferrer"> <img src="https://img.icons8.com/external-soft-fill-juicy-fish/60/external-sql-coding-and-development-soft-fill-juicy-fish.png" alt="ssms" width="40" height="40"/> </a>
-</p>
+### **Tools & Platforms**
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![SSMS](https://img.shields.io/badge/SSMS-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+
+
+</div>
 
 ---
 
-<h3 align="left">📊 إحصائياتي على جيت هاب (GitHub Stats):</h3>
-<p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=ahmedabdelkrim125&show_icons=true&locale=en&theme=tokyonight" alt="ahmedabdelkrim125" />
-</p>
-<p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=ahmedabdelkrim125&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="ahmedabdelkrim125" />
-</p>
+## 📊 **إحصائيات GitHub**
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Omartube70&show_icons=true&theme=react&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=5B2A91&icon_color=61DAFB&text_color=C9D1D9" alt="Omar's GitHub Stats" style="max-width:100%;"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Omartube70&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=5B2A91&text_color=C9D1D9&langs_count=8" alt="Omar's Top Languages" style="max-width:100%;"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Omartube70&theme=react&hide_border=true&background=0D1117&stroke=5B2A91&ring=5B2A91&fire=FF6B35&currStreakLabel=5B2A91" alt="GitHub Streak" style="max-width:100%;"/>
+
+</div>
 
 ---
 
-<h3 align="left">📬 تواصل معي (Connect with me):</h3>
-<p align="left">
-<a href="mailto:omartubefaheen@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-<a href="https://www.facebook.com/omar.mohamed.862034" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="omar.mohamed.862034" height="30" width="40" /></a>
-</p>
+## 🌐 **تواصل معي**
+
+<div align="center">
+
+<a href="https://www.facebook.com/omar.mohamed.862034" target="_blank">
+  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
+</a>
+<a href="mailto:omartubefaheen@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+</a>
+<a href="https://github.com/Omartube70" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+
+</div>
+
+---
+
+## ⚡ **حقائق سريعة**
+
+- 🔭 أعمل حالياً على: **مشاريع تدريبية لتطوير تطبيقات .NET**
+- 🌱 أتعلم: **Docker وتطبيقات الـ Microservices**
+- 💬 اسألني عن أي شيء يخص: **C#, .NET, SQL, and Clean Architecture**
+- 🏢 أنا عضو في فريق: **[The CodeFather](https://thecodefather.netlify.app/)**
+
+---
+
+<div align="center">
+
+## 💙 **شكراً لزيارتك!**
+
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands.png" alt="Thank You" width="50" />
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,5,15&height=150&section=footer&reversal=false&textBg=false"/>
+```
