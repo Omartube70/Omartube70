@@ -19,13 +19,7 @@
   <tr>
     <td valign="top">
       <p>أنا <strong>.NET Back-End Developer</strong> شغوف ببناء خدمات خلفية قوية وقابلة للتطوير 🚀.</p>
-      <p>أعمل حاليًا على صقل مهاراتي من خلال المشاريع التدريبية وتطبيق أفضل الممارسات في تصميم البرمجيات مثل الـ Clean Architecture.</p>
-      <br>
-      <ul>
-        <li>🌱 <strong>أركز حاليًا على:</strong> .NET, RESTful APIs, SQL Server.</li>
-        <li>🏢 <strong>أنا عضو في فريق:</strong> <a href="https://thecodefather.netlify.app/" target="_blank">The CodeFather</a>.</li>
-        <li>💬 <strong>يمكنك سؤالي عن:</strong> C#, Entity Framework, و SQL.</li>
-      </ul>
+      <p>أعمل حاليًا على صقل مهاراتي من خلال المشاريع التدريبية وتطبيق أفضل الممارسات في تصميم البرمجيات مثل الـ Clean Architecture لضمان كتابة كود نظيف وفعال.</p>
     </td>
     <td valign="top" width="400">
       <img alt="Coding" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" style="max-width: 100%;"/>
@@ -53,7 +47,6 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![SSMS](https://img.shields.io/badge/SSMS-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-
 
 </div>
 
@@ -97,10 +90,10 @@
 
 ## ⚡ **حقائق سريعة**
 
-- 🔭 أعمل حالياً على: **مشاريع تدريبية لتطوير تطبيقات .NET**
-- 🌱 أتعلم: **Docker وتطبيقات الـ Microservices**
+- 🌱 أتعلم حاليًا: **Docker and Microservices concepts**
 - 💬 اسألني عن أي شيء يخص: **C#, .NET, SQL, and Clean Architecture**
 - 🏢 أنا عضو في فريق: **[The CodeFather](https://thecodefather.netlify.app/)**
+- 😄 حقيقة ممتعة: أحب تحويل الأفكار المعقدة إلى حلول برمجية بسيطة وأنيقة.
 
 ---
 
@@ -116,5 +109,4 @@
 
 </div>
 
-<!-- Footer -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&reversal=false&textBg=false"/>
