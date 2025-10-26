@@ -39,6 +39,11 @@
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Entity Framework](https://img.shields.io/badge/Entity%20Framework-512BD4?style=for-the-badge&logo=.net&logoColor=white)
 
+### **Desktop Development**
+![Windows Forms](https://img.shields.io/badge/Windows%20Forms-512BD4?style=for-the-badge&logo=.net&logoColor=white)
+![Desktop](https://img.shields.io/badge/Desktop%20App-5C2D91?style=for-the-badge&logo=windows&logoColor=white)
+![ADO.NET](https://img.shields.io/badge/ADO.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white)
+
 ### **Database**
 ![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 
